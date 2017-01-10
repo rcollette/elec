@@ -1,12 +1,16 @@
 {
-  "devDependencies": {
-    "tslint": "^4.3.1",
-    "typescript": "^2.1.4"
-  },
+  "name": "app",
+  "version": "1.0",
   "dependencies": {
-    "@types/node": "^6.0.59",
     "electron": "^1.4.13",
     "path": "^0.12.7",
+    "requirejs": "^2.3.2",
     "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.59",
+    "urequire": "^0.7.0-beta.29",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.4"
   }
 }
