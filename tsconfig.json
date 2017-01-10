@@ -4,5 +4,9 @@
         "module": "commonjs",
         "sourceMap": true,
         "watch": true
-    }
+    },
+    "exclude": [
+        "app/renderer/viewer",
+        "node_modules"
+    ]
 }
