@@ -1,10 +1,10 @@
-import { app, BrowserWindow } from "electron";
+import { app, BrowserWindow} from "electron";
 import * as path from "path";
 import * as url from "url";
 
 // keep a global reference of the window object, if you don"t, the window will
 // be closed automatically when the JavaScript object is garbage collected.
-let mainWindow;
+let mainWindow:Electron.BrowserWindow;
 
 function createWindow() {
   // create the browser window.
@@ -53,3 +53,4 @@ app.on("activate", function () {
 
 // in this filec you can include the rest of your app"s specific main process
 // code. You can also put them in separate files and require them here.
+
