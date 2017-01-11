@@ -15,6 +15,7 @@
     "typescript": "^2.1.4"
   },
   "scripts": {
-    "start":"node_modules\\electron\\dist\\electron.exe app"
+    "start":"node_modules\\electron\\dist\\electron.exe app",
+    "startmac":"node_modules/electron/dist/electron.app/Contents/MacOs/Electron app"
   }
 }
