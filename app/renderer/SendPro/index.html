@@ -1,11 +1,20 @@
-<style>
-body{
-  margin:0;
-  padding:0;
-}
-webview{
-    height:100%;
-    width:100%;
-}
-</style>
-<webview src="http://ui-dev.horizon.pitneycloud.com" autosize="on" partition="persist:mySession"></webview>
+<htmL>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    webview {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <!--TODO Currently the script is not loading-->
+  <script src="require('./index.js')"></script>
+</head>
+<webview src="http://ui-dev.horizon.pitneycloud.com"
+         autosize="on"
+         partition="persist:mySession"></webview>
+</htmL>
