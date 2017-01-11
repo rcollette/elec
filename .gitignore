@@ -1,4 +1,15 @@
+#third party
 node_modules
+
+#transpiler output
 *.js
 *.js.map
+
+#WebStorm
+.idea
+
+#npm
+/npm-debug.log
+
+#preserves
 !app/renderer/viewer/**/*.js
