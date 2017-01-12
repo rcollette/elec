@@ -1343,7 +1343,8 @@ var PDFViewerApplication = {
 var validateFileURL;
 if (typeof PDFJSDev === 'undefined' || PDFJSDev.test('GENERIC')) {
   var HOSTED_VIEWER_ORIGINS = ['null',
-    'http://mozilla.github.io', 'https://mozilla.github.io'];
+    'http://mozilla.github.io', 'https://mozilla.github.io',
+  'file://'];
   validateFileURL = function validateFileURL(file) {
     try {
       var viewerOrigin = new URL(window.location.href).origin || 'null';
