@@ -1,9 +1,7 @@
-"use strict";
-
 const config = {
-  appName: "SendPro",
+  appName: 'SendPro',
   filePaths: {
-    virtual: "virtual"
+    virtual: 'virtual'
   }
 };
 
