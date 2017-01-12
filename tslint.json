@@ -19,7 +19,7 @@
     ],
     "quotemark": [
       true,
-      "double"
+      "single"
     ],
     "semicolon": [
       true,
@@ -63,7 +63,7 @@
     ],
     "quotemark": [
       true,
-      "double"
+      "single"
     ],
     "semicolon": [
       true,
