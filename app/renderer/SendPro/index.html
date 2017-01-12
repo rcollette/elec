@@ -1,9 +1,22 @@
-<htmL>
+<!DOCTYPE html>
+<html>
 <head>
   <style>
+    html {
+      height: 100%;
+      width: 100%;
+    }
+
     body {
       margin: 0;
       padding: 0;
+      width: 100%;
+      height: 100%
+    }
+
+    .indicator {
+      position: absolute;
+      z-index: 10;
     }
 
     webview {
@@ -12,9 +25,15 @@
     }
   </style>
   <!--TODO Currently the script is not loading-->
-  <script src="require('./index.js')"></script>
+  <script>require('./index.js');</script>
 </head>
-<webview src="http://ui-dev.horizon.pitneycloud.com"
-         autosize="on"
-         partition="persist:mySession"></webview>
+<body>
+<div class="indicator">The indicator</div>
+<webview
+  id="aWebView"
+  src="http://ui-dev.horizon.pitneycloud.com"
+  autosize="on"
+  partition="persist:mySession"
+  preload="file:index.js"></webview>
+</body>
 </htmL>
