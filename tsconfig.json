@@ -1,12 +1,13 @@
 {
-    "compilerOptions": {
-        "target": "es6",
-        "module": "commonjs",
-        "sourceMap": true,
-        "watch": true
-    },
-    "exclude": [
-        "app/renderer/viewer",
-        "node_modules"
-    ]
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "watch": true
+  },
+  "exclude": [
+    "app/renderer/viewer",
+    "node_modules"
+  ]
 }
