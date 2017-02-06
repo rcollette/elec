@@ -5,6 +5,7 @@ import * as url from 'url';
 import * as unionfs from 'unionfs';
 import * as fs from 'fs';
 import {config} from './modules/config';
+import * as printer from 'printer/printer';
 
 // keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -75,6 +76,7 @@ app.on('activate', function () {
   // dock icon is clicked and there are no other windows open.
   if (mainWindow === null) {
     createWindow();
+    console.log(printer.getDefaultPrinterName());
   }
 });
 
