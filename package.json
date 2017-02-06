@@ -15,11 +15,14 @@
     "@types/electron": "^1.4.31",
     "@types/node": "^6.0.59",
     "devtron": "^1.4.0",
+    "electron-rebuild": "^1.5.7",
     "tslint": "^4.3.1",
     "typescript": "^2.1.4"
   },
   "scripts": {
     "start": "node_modules\\electron\\dist\\electron.exe app",
-    "startmac": "node_modules/electron/dist/electron.app/Contents/MacOs/Electron app"
+    "startmac": "node_modules/electron/dist/electron.app/Contents/MacOs/Electron app",
+    "compilePrinterWindows": "npm install printer --msvs_version=2015  --build-from-source=node_printer",
+    "rebuild": "electron-rebuild -f -w app"
   }
 }
