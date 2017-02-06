@@ -3,21 +3,21 @@
   "description": "test",
   "version": "1.0.0",
   "dependencies": {
-    "electron": "^1.4.13",
-    "electron-download-manager": "^1.1.0",
+    "electron": "1.4.15",
+    "electron-download-manager": "1.1.0",
     "memfs": "0.0.15",
-    "path": "^0.12.7",
-    "requirejs": "^2.3.2",
+    "path": "0.12.7",
+    "requirejs": "2.3.2",
     "unionfs": "0.0.9",
     "url": "^0.11.0"
   },
   "devDependencies": {
-    "@types/electron": "^1.4.31",
-    "@types/node": "^6.0.59",
-    "devtron": "^1.4.0",
-    "electron-rebuild": "^1.5.7",
-    "tslint": "^4.3.1",
-    "typescript": "^2.1.4"
+    "@types/electron": "1.4.31",
+    "@types/node": "6.0.59",
+    "devtron": "1.4.0",
+    "electron-rebuild": "1.5.7",
+    "tslint": "4.3.1",
+    "typescript": "2.1.5"
   },
   "scripts": {
     "start": "node_modules\\electron\\dist\\electron.exe app",
